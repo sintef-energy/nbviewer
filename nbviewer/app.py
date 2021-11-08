@@ -221,7 +221,7 @@ class NBViewer(Application):
     )
 
     binder_base_url = Unicode(
-        default_value="https://mybinder.org/v2",
+        default_value="https://binder.sintef.energy/v2",
         help="URL base for binder notebook execution service.",
     ).tag(config=True)
 
